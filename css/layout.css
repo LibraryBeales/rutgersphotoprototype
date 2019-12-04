@@ -1,0 +1,135 @@
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */ 
+
+@font-face {
+	font-family: FormataBQReg;
+	src: url('../fonts/FormataBQReg.otf');
+}
+
+body {
+	background: #d21034 url('../images/bgstrip.png') repeat-x 0 0; 
+	border-top: 5px solid #d21034;
+	text-align: center;
+	max-width: 95%;
+	min-width: 760px;
+	max-width: 1200px;
+	padding-bottom: 2em;
+	margin-right: auto;
+	margin-left: auto;
+	font-family:FormataBQReg;
+	/* text-shadow: 0 0 25px #fffff0 ;*/
+	color: #5f6a72;
+}
+
+header {
+	padding: 0 0 0 0;
+}
+
+#main {
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+#header, #footer {
+	clear: left;
+	padding: 0 10px;
+	zoom: 1; //hasLayout fix for IE7;
+}
+#container {
+	float: left;
+	padding: 0 0 0 0;
+	width: 100%;
+	background: white;
+}
+
+#content {
+	float: left;
+	width: 100%;
+}
+
+#rightsidebar {
+	float:right;
+	font-size: 14px;
+	border-width:thin;
+	border-style:solid;
+	border-color:#d21034;
+	border-top: 20px solid #d21034; 
+	margin: 0 15px 20px -240px;
+	padding: 5px 20px 20px 0;
+	margin-top: 15px;
+	width: 220px;
+}
+
+
+
+#maincolumn {
+	clear: left;
+	margin: 0 260px 0 0;
+}
+
+.mainsearchform {
+	clear: left;
+	margin: 0 260px 0 0;
+	padding: 20px;
+	text-align: center;
+}
+
+.sidecolumn {
+	clear: left;
+	margin: 0 260px 0 170px;
+	position: relative;
+	text-align: left;
+}
+.mainresultscolumn {
+	clear: left;
+	margin: 0 260px 0 0;
+	padding: 20px;
+	text-align: left;
+}
+
+.col {
+	float: left;
+	margin-right: -1px; //IE6 and IE7 round up pixels;
+	width: 33.333%;
+}
+
+.transtable {
+	background: transparent;
+	border: 0px;
+}
+
+.linkcorner{
+	float: right;
+	font-size: 10px;
+	margin-right: 180px;
+}
+
+h1{
+	float: left;
+	background-color:#d21034; 
+	width:100%; 
+	height:25px; 
+	margin-top: -2px;
+	color:#ffffff;
+	font-size: 12px;
+	text-align: left;
+	line-height: 29px;
+	vertical-align: middle;
+}
+
+h2 {
+	padding: 5px 5px 5px 5px;		
+	font-size: 16px
+}	
+
+p {
+	padding: 5px 0 5px 20px;
+}
+
+button {
+	margin-left: 10px;
+}
+	

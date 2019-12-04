@@ -1,0 +1,100 @@
+
+@font-face {
+	font-family: FormataBQReg;
+	src: url('fonts/FormataBQReg.otf');
+}
+
+A:link {
+ COLOR: #0925f9 /*The color of the link*/
+}
+A:visited {
+ COLOR: #0925f9 /*The color of the visited link*/
+}
+A:hover {
+ COLOR: green /*The color of the mouseover or 'hover' link*/
+}
+
+header
+{
+text-align:center;
+font-family:FormataBQReg;
+text-shadow: 0 0 25px #fffff0;
+font-size: 70px;
+color:grey
+Dodge Poetry Festival Archives 1986-2012
+}
+
+
+body
+{
+background-image:url('images/backgroundaerial.png'); 
+font-family:FormataBQReg;
+text-shadow: 0 0 25px #fffff0;
+font-size: 20 px;
+color:grey;
+}
+
+
+form    {
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+font-family:FormataBQReg;
+text-shadow: 0 0 25px #ffffff;
+font-size: 20 px;
+color:grey;
+}
+
+nav {
+    text-align:center;
+    font-size: 14px;
+}
+/*
+#navbar {
+	margin-left:auto;
+	margin-right:auto;
+}
+*/
+#maincontent {   }
+#rightsidebar {
+	float:right;
+	width:120px;
+	height:100px;
+	margin-top:20px;
+	margin-left:10px;
+	margin-bottom:10px;
+	padding:5px;
+	border-width:thin;
+	border-style:solid;
+	border-color:#C1F3BC;
+	border-top: 20px solid #C1F3BC; 
+}
+.floatleft {
+	float: left;	
+	margin-left: 5px; 
+  	margin-right:10px;
+	margin-top: 5px;
+	margin-bottom:10px;
+	border:medium;
+	border-style:solid;
+	border-color:black;
+}
+.videotable {
+        margin-left:0px; 
+  	margin-right:0px;
+}
+
+
+
+figure {
+    text-align:center;
+    margin-left:auto;
+	margin-right:auto;
+
+}
+
+table {
+margin-left:auto;
+	margin-right:auto;
+	}
+	

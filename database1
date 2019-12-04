@@ -1,0 +1,23 @@
+<?php
+
+include 'credentials.php';
+
+$ds = mysql_connect( "localhost", $myname, $mypassword);
+$qs = mysql_select_db( $mydatabase);
+
+if($qs == FALSE)
+{
+    echo 'Cannot connect to database' . mysql_error();
+}
+else
+{
+    echo 'Connected to database';
+}
+
+$query="SELECT * FROM TestTen WHERE AuthorLastName='$search1' LIMIT 1";
+
+mysql_close($ds);
+
+?>
+
+<a href="http://www.rdavidbeales.com/dodge/dodgehomepage.html">Click here to go back to main page.</a>

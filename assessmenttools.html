@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="description" Content="A prototype web portal for the Rutgers University Library Historical Photo Archive">
+<title>Rutgers University Prototype Photo Archive</title>
+
+
+<link href="css/cleanslate.css" rel="stylesheet" type="text/css" />
+<!--COMPOUND TEST SHEET<link href="css/archiveprototype.css" rel="stylesheet" type="text/css" />-->
+<link href="css/layout.css" rel="stylesheet"/>
+<!--
+<link href="css/type.css" rel="stylesheet"/>
+<link href="css/main.css" rel="stylesheet"/>
+<link href="css/intro.css" rel="stylesheet"/>
+-->
+</head>
+
+<body>
+<div id="main">
+<div id="container">
+<header><img src="images/banner.jpg" border="0" usemap="#Map" />
+<map name="Map" id="Map">
+  <area shape="rect" coords="996,17,1178,88" href="http://www.libraries.rutgers.edu/" />
+  <area shape="rect" coords="21,23,566,56" href="http://www.rdavidbeales.com/archiveprototype/archiveprototypehome.html" />
+  <area shape="poly" coords="790,10,789,7,789,42,806,46,828,60,834,64,928,62,927,15,926,10" href="http://www.libraries.rutgers.edu/" />
+  <area shape="rect" coords="8, 14, 444, 46" href="http://www.rdavidbeales.com/archiveprototype/archiveprototypehome.html" />
+</map></header>
+
+<h1>Breadcrumbs will be here</h1>
+
+
+<table id="transtable" align="left">
+<tr><td align="left"> 
+<form name="search" action="currentworknotes.php" method="post">
+<button type="submit">Retrieve Documents with Active Worknotes</button>
+</form>
+</td>
+</tr>
+<tr> 
+<td align="left">
+<form name="search" action="copyrightaggregate.php" method="post">
+<button type="submit">Retrieve Copyright Status Aggregates</button>
+</form>
+</td>
+</tr>
+<tr> 
+<td align="left">
+<form name="search" action="filetypeaggregate.php" method="post">
+<button type="submit">Retrieve File Type Aggregates</button>
+</form>
+</td>
+</tr>
+<tr> 
+<td align="left">
+<form name="search" action="chronologicalbreakdown.php" method="post">
+<button type="submit">Display Chronological Distribution of Documents</button><br>
+</form>
+</td>
+</tr>
+</body>
+</html>
